@@ -46,7 +46,14 @@
         <div class="row">
           <div class="six columns">
             <img src="images/stickers/nyan.png" widht="250" alt="nyan"/>
-    				<p><a href="#" class="nice radius large blue button">Nice Blue Button</a></p>
+            <fieldset>
+							<label for="voter-name">Nom</label>
+							<input name="voter-name" type="text" class="input-text nice">
+
+							<label for="voter-email">Email</label>
+				  		<input name="voter-email" type="text" class="input-text nice">
+    			    <p><a href="#" class="nice radius blue button">Je le veux!</a></p>
+							</fieldset>
 					</div>
 					<div class="six columns">
             <img src="images/stickers/tetalab_dotcom.jpg" widht="250" alt="tetalab_dotcom"/>
@@ -134,7 +141,7 @@
 
         <div class="row">
           <div class="tree columns">
-            <img src="images/stickers/we_make_porn.jpg" width="100" alt="Tetalab"/>
+            <img src="images/stickers/tetalab.jpg" width="100" alt="Tetalab"/>
           </div>
           <div class="nine columns">
             <h5>Tetalab</h5>
@@ -148,7 +155,7 @@
         <h4>Proposez un design</h4>
         <p>Pour proposer un design dans une prochaine bataille, abonnez-vous à la mailing-list du Tetalab, puis envoyez votre design sur cette liste:</p>
         <form method="POST" action="http://lists.tetalab.org/cgi-bin/mailman/subscribe/tetalab">
-          <input type="text" placeholder="votre email" name="email" class="input-text">
+          <input type="text" placeholder="votre email" name="email" class="input-text nice">
           <input type="Submit" name="email-button" value="S'inscrire" class="small white nice button radius">
         </form>
         <p>Vous pouvez aussi envoyé vos questions sur la mailing-list.</p>
